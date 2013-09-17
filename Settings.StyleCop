@@ -23,4 +23,15 @@
       </AnalyzerSettings>
     </Analyzer>
   </Analyzers>
+  <Parsers>
+    <Parser ParserId="StyleCop.CSharp.CsParser">
+      <ParserSettings>
+        <CollectionProperty Name="GeneratedFileFilters">
+          <Value>\.g\.cs$</Value>
+          <Value>\.generated\.cs$</Value>
+          <Value>\.g\.i\.cs$</Value>
+        </CollectionProperty>
+      </ParserSettings>
+    </Parser>
+  </Parsers>
 </StyleCopSettings>
