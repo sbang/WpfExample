@@ -21,11 +21,5 @@ namespace WpfExampleProgram
         {
             InitializeComponent();
         }
-
-        // ReSharper disable once InconsistentNaming
-        private void Button_Click(object sender, System.Windows.RoutedEventArgs e)
-        {
-            textBox1.Text = "Hello world!";
-        }
     }
 }
