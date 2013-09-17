@@ -8,7 +8,8 @@
     <Grid>
         <TextBox Name="DisplayHelloTextBox" HorizontalAlignment="Left" Height="96" Margin="68,23,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="167"
                  x:FieldModifier="public" />
-        <Button Name="SayHelloButton" Content="Say Hello" HorizontalAlignment="Left" Margin="108,138,0,0" VerticalAlignment="Top" Width="93" Height="43"/>
+        <Button Name="SayHelloButton" Content="Say Hello" HorizontalAlignment="Left" Margin="108,138,0,0" VerticalAlignment="Top" Width="93" Height="43"
+                x:FieldModifier="public" Click="SayHelloButton_Click" />
 
     </Grid>
 </UserControl>

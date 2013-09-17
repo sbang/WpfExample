@@ -21,5 +21,11 @@ namespace CustomControls
         {
             InitializeComponent();
         }
+
+        // ReSharper disable once InconsistentNaming
+        private void SayHelloButton_Click(object sender, System.Windows.RoutedEventArgs e)
+        {
+            DisplayHelloTextBox.Text = "Hello world!";
+        }
     }
 }
