@@ -11,7 +11,7 @@ namespace CustomControls
 {
     using System.Windows;
     using System.Windows.Controls;
-    using System.Windows.Input;
+    using System.Windows.Controls.Primitives;
 
     using NUnit.Framework;
 
@@ -46,12 +46,7 @@ namespace CustomControls
 
         private void Click(Button button)
         {
-            var e = new MouseButtonEventArgs(Mouse.PrimaryDevice, 0, MouseButton.Left)
-                        {
-                            RoutedEvent = UIElement.MouseUpEvent
-                        };
-
-            button.RaiseEvent(e);
+            button.RaiseEvent(new RoutedEventArgs(ButtonBase.ClickEvent));
         }
     }
 }
