@@ -70,7 +70,6 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CrossThreadTestRunner.cs" />
     <Compile Include="HelloControlTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
