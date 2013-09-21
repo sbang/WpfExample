@@ -1,4 +1,4 @@
-﻿namespace DataModel
+﻿namespace Steria.WpfExample.DataModel
 {
     public enum Gender
     {

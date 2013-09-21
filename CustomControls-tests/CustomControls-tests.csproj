@@ -7,8 +7,8 @@
     <ProjectGuid>{BB0B6D3F-B77E-4D92-8173-997D0444FC03}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CustomControls</RootNamespace>
-    <AssemblyName>CustomControls-tests</AssemblyName>
+    <RootNamespace>Steria.WpfExample.CustomControls</RootNamespace>
+    <AssemblyName>Steria.WpfExample.CustomControls-tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>

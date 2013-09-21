@@ -7,7 +7,7 @@
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace WpfExampleProgram
+namespace Steria.WpfExample.WpfExampleProgram
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -19,7 +19,7 @@ namespace WpfExampleProgram
         /// </summary>
         public MainWindow()
         {
-            InitializeComponent();
+            this.InitializeComponent();
         }
 
         // ReSharper disable once InconsistentNaming

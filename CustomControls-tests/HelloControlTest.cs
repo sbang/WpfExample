@@ -7,7 +7,7 @@
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace CustomControls
+namespace Steria.WpfExample.CustomControls
 {
     using System.Windows;
     using System.Windows.Controls;
@@ -31,7 +31,7 @@ namespace CustomControls
         {
             var control = new HelloControl();
             Assert.AreEqual("TextBox", control.DisplayHelloTextBox.Text);
-            Click(control.SayHelloButton);
+            this.Click(control.SayHelloButton);
             Assert.AreEqual("Hello world!", control.DisplayHelloTextBox.Text);
         }
 

@@ -7,8 +7,8 @@
     <ProjectGuid>{57A04E40-6071-4B0D-B69B-70ADE9CBB612}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DataModel</RootNamespace>
-    <AssemblyName>DataModel</AssemblyName>
+    <RootNamespace>Steria.WpfExample.DataModel</RootNamespace>
+    <AssemblyName>Steria.WpfExample.DataModel</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>

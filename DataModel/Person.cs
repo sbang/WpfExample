@@ -1,4 +1,4 @@
-﻿namespace DataModel
+﻿namespace Steria.WpfExample.DataModel
 {
     public class Person
     {
@@ -17,11 +17,11 @@
         {
             get
             {
-                return name;
+                return this.name;
             }
             set
             {
-                if (value != name)
+                if (value != this.name)
                 {
                     this.name = value ?? string.Empty;
                 }
@@ -34,13 +34,13 @@
         {
             get
             {
-                return age;
+                return this.age;
             }
             set
             {
-                if (value != age)
+                if (value != this.age)
                 {
-                    age = value < 0 ? 0 : value;
+                    this.age = value < 0 ? 0 : value;
                 }
             }
         }

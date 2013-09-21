@@ -7,7 +7,7 @@
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace CustomControls
+namespace Steria.WpfExample.CustomControls
 {
     /// <summary>
     /// Interaction logic for HelloControl.xaml
@@ -19,13 +19,13 @@ namespace CustomControls
         /// </summary>
         public HelloControl()
         {
-            InitializeComponent();
+            this.InitializeComponent();
         }
 
         // ReSharper disable once InconsistentNaming
         private void SayHelloButton_Click(object sender, System.Windows.RoutedEventArgs e)
         {
-            DisplayHelloTextBox.Text = "Hello world!";
+            this.DisplayHelloTextBox.Text = "Hello world!";
         }
     }
 }
