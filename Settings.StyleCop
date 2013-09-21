@@ -32,6 +32,8 @@
         <BooleanProperty Name="IgnorePrivates">True</BooleanProperty>
         <BooleanProperty Name="IgnoreInternals">True</BooleanProperty>
         <BooleanProperty Name="IncludeFields">False</BooleanProperty>
+        <StringProperty Name="CompanyName">Steria AS</StringProperty>
+        <StringProperty Name="Copyright">Copyright Steria 2013</StringProperty>
       </AnalyzerSettings>
     </Analyzer>
   </Analyzers>
