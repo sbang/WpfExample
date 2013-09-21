@@ -1,4 +1,13 @@
-﻿namespace Steria.WpfExample.DataModel
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="PersonTest.cs" company="Steria AS">
+//   Copyright Steria 2013
+// </copyright>
+// <summary>
+//   Defines the PersonTest type.
+// </summary>
+// --------------------------------------------------------------------------------------------------------------------
+
+namespace Steria.WpfExample.DataModel
 {
     using NUnit.Framework;
 
