@@ -7,8 +7,8 @@
     <ProjectGuid>{BB0B6D3F-B77E-4D92-8173-997D0444FC03}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Steria.WpfExample.CustomControls</RootNamespace>
-    <AssemblyName>Steria.WpfExample.CustomControls-tests</AssemblyName>
+    <RootNamespace>Steria.WpfExample.UserControls</RootNamespace>
+    <AssemblyName>Steria.WpfExample.UserControls-tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
@@ -71,7 +71,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CustomControls\CustomControls.csproj">
+    <ProjectReference Include="..\UserControls\UserControls.csproj">
       <Project>{9F857507-5595-476A-A3D3-02B738552AC4}</Project>
       <Name>CustomControls</Name>
     </ProjectReference>

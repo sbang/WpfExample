@@ -100,9 +100,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CustomControls\CustomControls.csproj">
-      <Project>{9F857507-5595-476A-A3D3-02B738552AC4}</Project>
-      <Name>CustomControls</Name>
+    <ProjectReference Include="..\UserControls\UserControls.csproj">
+      <Project>{9f857507-5595-476a-a3d3-02b738552ac4}</Project>
+      <Name>UserControls</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

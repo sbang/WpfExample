@@ -7,7 +7,7 @@
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace Steria.WpfExample.CustomControls
+namespace Steria.WpfExample.UserControls
 {
     using System.Windows;
     using System.Windows.Controls;

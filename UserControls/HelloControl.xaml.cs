@@ -7,7 +7,7 @@
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace Steria.WpfExample.CustomControls
+namespace Steria.WpfExample.UserControls
 {
     /// <summary>
     /// Interaction logic for HelloControl.xaml
