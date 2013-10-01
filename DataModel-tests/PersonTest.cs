@@ -35,7 +35,7 @@ namespace Steria.WpfExample.DataModel
         }
 
         [Test(Description = "Test the Person.Age property.")]
-        public void Age()
+        public void TestAge()
         {
             var person = new Person("Kari", Gender.Female, 10);
             Assert.AreEqual(10, person.Age);
